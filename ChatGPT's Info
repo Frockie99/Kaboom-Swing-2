@@ -1,0 +1,17 @@
+⚠️ This Game Was Built in Godot Engine and Exported to WebAssembly
+Your index.js is not the game logic itself — it's a Godot WebAssembly loader script generated when exporting a Godot game for web. That file does things like:
+
+Load and initialize the WebAssembly .wasm file (godot.javascript.opt.debug.wasm)
+
+Set up a fake filesystem
+
+Start the Godot game runtime
+
+The actual game logic is inside the WebAssembly binary file (.wasm), likely the one you saw in the /wasm/04510b42 folder.
+
+🔍 What This Means
+The game was made in Godot, not directly in JavaScript or Kaboom.js.
+
+All gameplay code, scenes, animations, and logic are compiled into godot.javascript.opt.debug.wasm.
+
+That .wasm file is not human-readable. You’ll need special tools to reverse-engineer or inspect it.
