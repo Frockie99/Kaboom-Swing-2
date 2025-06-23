@@ -1,0 +1,36 @@
+GDRE Tools v1.0.0-rc.2
+Windows 10.0.26100, NVIDIA GeForce RTX 3060, opengl3
+Opening file: D:\programes\PCK_extractor\index.pck
+Multiple passing candidates for bytecode version 13:
+3.5.0-stable (a7aad78), 3.2.0-stable (5565f55)
+Choosing only one that matches engine version: 3.2.0-stable (5565f55).
+Verified 310 files, no errors detected!
+Extracted 310 files, no errors detected!
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     27
+Failed scripts:                         0
+Imported resources for export session:  121
+Successfully converted:                 121
+Lossy:                                  0
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.3.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+
