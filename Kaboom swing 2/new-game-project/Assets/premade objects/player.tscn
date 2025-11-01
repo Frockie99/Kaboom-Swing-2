@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bq3mmgtwdfxoh"]
+
+[ext_resource type="Script" uid="uid://80kl10p8d3vr" path="res://player.gd" id="1_aq2qe"]
+[ext_resource type="Texture2D" uid="uid://dcgqlpsn2at7g" path="res://Assets/Art/walk1.png" id="2_bxuaa"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cr01g"]
+
+[node name="Player" type="Node"]
+
+[node name="player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_aq2qe")
+
+[node name="player collider" type="CollisionShape2D" parent="player"]
+shape = SubResource("CircleShape2D_cr01g")
+
+[node name="player sprite" type="Sprite2D" parent="player"]
+texture = ExtResource("2_bxuaa")
+
+[node name="Camera2D" type="Camera2D" parent="."]
