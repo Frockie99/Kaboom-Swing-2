@@ -16,4 +16,6 @@ shape = SubResource("CircleShape2D_cr01g")
 [node name="player sprite" type="Sprite2D" parent="player"]
 texture = ExtResource("2_bxuaa")
 
+[node name="RayCast2D" type="RayCast2D" parent="player"]
+
 [node name="Camera2D" type="Camera2D" parent="."]
